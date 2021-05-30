@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DC7054C2E0BB685F738A5BD /* Pods_RURIGHTGAME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A95B06687C3F003134778E0 /* Pods_RURIGHTGAME.framework */; };
+		55E41A11264DCBDD00389691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A10264DCBDD00389691 /* AppDelegate.swift */; };
+		55E41A13264DCBDD00389691 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A12264DCBDD00389691 /* SceneDelegate.swift */; };
+		55E41A15264DCBDD00389691 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A14264DCBDD00389691 /* ContentView.swift */; };
+		55E41A17264DCBDE00389691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E41A16264DCBDE00389691 /* Assets.xcassets */; };
+		55E41A1A264DCBDE00389691 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E41A19264DCBDE00389691 /* Preview Assets.xcassets */; };
+		55E41A1D264DCBDE00389691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E41A1B264DCBDE00389691 /* LaunchScreen.storyboard */; };
+		55E41A28264DCBDE00389691 /* RURIGHTGAMETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A27264DCBDE00389691 /* RURIGHTGAMETests.swift */; };
+		55E41A33264DCBDE00389691 /* RURIGHTGAMEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A32264DCBDE00389691 /* RURIGHTGAMEUITests.swift */; };
+		55E41A44264DCCD900389691 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55E41A43264DCCD900389691 /* GoogleService-Info.plist */; };
+		55E41A71264DCF8400389691 /* firstpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A70264DCF8400389691 /* firstpage.swift */; };
+		55E41A76264DD00200389691 /* highscoredata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A75264DD00200389691 /* highscoredata.swift */; };
+		55E41A7B264DD03400389691 /* HOME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A7A264DD03400389691 /* HOME.swift */; };
+		55E41A80264DD06F00389691 /* lastpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A7F264DD06F00389691 /* lastpage.swift */; };
+		55E41A85264DD0AD00389691 /* modelgame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A84264DD0AD00389691 /* modelgame.swift */; };
+		55E41A8A264DD0E100389691 /* modelviewgame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A89264DD0E100389691 /* modelviewgame.swift */; };
+		55E41A8F264DD13400389691 /* yourname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E41A8E264DD13400389691 /* yourname.swift */; };
+		6C46534D2911AAC90318D3CD /* Pods_RURIGHTGAME_RURIGHTGAMEUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DFBE4632567378CAEA9959 /* Pods_RURIGHTGAME_RURIGHTGAMEUITests.framework */; };
+		BCA09B23FB00137E7DCF8446 /* Pods_RURIGHTGAMETests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EBA46581B700A2BCE94FFB /* Pods_RURIGHTGAMETests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E41A24264DCBDE00389691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E41A05264DCBDD00389691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E41A0C264DCBDD00389691;
+			remoteInfo = RURIGHTGAME;
+		};
+		55E41A2F264DCBDE00389691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E41A05264DCBDD00389691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E41A0C264DCBDD00389691;
+			remoteInfo = RURIGHTGAME;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1217A323D4A07A85FAC486BC /* Pods-RURIGHTGAME-RURIGHTGAMEUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RURIGHTGAME-RURIGHTGAMEUITests.debug.xcconfig"; path = "Target Support Files/Pods-RURIGHTGAME-RURIGHTGAMEUITests/Pods-RURIGHTGAME-RURIGHTGAMEUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23DFBE4632567378CAEA9959 /* Pods_RURIGHTGAME_RURIGHTGAMEUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RURIGHTGAME_RURIGHTGAMEUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A95B06687C3F003134778E0 /* Pods_RURIGHTGAME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RURIGHTGAME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CF5EEC536E9EF319CB7062 /* Pods-RURIGHTGAME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RURIGHTGAME.release.xcconfig"; path = "Target Support Files/Pods-RURIGHTGAME/Pods-RURIGHTGAME.release.xcconfig"; sourceTree = "<group>"; };
+		3D60588F9BCD414C46921DB8 /* Pods-RURIGHTGAME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RURIGHTGAME.debug.xcconfig"; path = "Target Support Files/Pods-RURIGHTGAME/Pods-RURIGHTGAME.debug.xcconfig"; sourceTree = "<group>"; };
+		4382F68ED4FB3B9EA37C18B0 /* Pods-RURIGHTGAMETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RURIGHTGAMETests.debug.xcconfig"; path = "Target Support Files/Pods-RURIGHTGAMETests/Pods-RURIGHTGAMETests.debug.xcconfig"; sourceTree = "<group>"; };
+		55E41A0D264DCBDD00389691 /* RURIGHTGAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RURIGHTGAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E41A10264DCBDD00389691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55E41A12264DCBDD00389691 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55E41A14264DCBDD00389691 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55E41A16264DCBDE00389691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E41A19264DCBDE00389691 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55E41A1C264DCBDE00389691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E41A1E264DCBDE00389691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E41A23264DCBDE00389691 /* RURIGHTGAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RURIGHTGAMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E41A27264DCBDE00389691 /* RURIGHTGAMETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RURIGHTGAMETests.swift; sourceTree = "<group>"; };
+		55E41A29264DCBDE00389691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E41A2E264DCBDE00389691 /* RURIGHTGAMEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RURIGHTGAMEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E41A32264DCBDE00389691 /* RURIGHTGAMEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RURIGHTGAMEUITests.swift; sourceTree = "<group>"; };
+		55E41A34264DCBDE00389691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E41A43264DCCD900389691 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55E41A70264DCF8400389691 /* firstpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstpage.swift; sourceTree = "<group>"; };
+		55E41A75264DD00200389691 /* highscoredata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = highscoredata.swift; sourceTree = "<group>"; };
+		55E41A7A264DD03400389691 /* HOME.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOME.swift; sourceTree = "<group>"; };
+		55E41A7F264DD06F00389691 /* lastpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastpage.swift; sourceTree = "<group>"; };
+		55E41A84264DD0AD00389691 /* modelgame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelgame.swift; sourceTree = "<group>"; };
+		55E41A89264DD0E100389691 /* modelviewgame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelviewgame.swift; sourceTree = "<group>"; };
+		55E41A8E264DD13400389691 /* yourname.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourname.swift; sourceTree = "<group>"; };
+		7E803844677EBB6D7CBA8D04 /* Pods-RURIGHTGAME-RURIGHTGAMEUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RURIGHTGAME-RURIGHTGAMEUITests.release.xcconfig"; path = "Target Support Files/Pods-RURIGHTGAME-RURIGHTGAMEUITests/Pods-RURIGHTGAME-RURIGHTGAMEUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6EBA46581B700A2BCE94FFB /* Pods_RURIGHTGAMETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RURIGHTGAMETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E955FE590C0BF2D09899DCAB /* Pods-RURIGHTGAMETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RURIGHTGAMETests.release.xcconfig"; path = "Target Support Files/Pods-RURIGHTGAMETests/Pods-RURIGHTGAMETests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E41A0A264DCBDD00389691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC7054C2E0BB685F738A5BD /* Pods_RURIGHTGAME.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E41A20264DCBDE00389691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA09B23FB00137E7DCF8446 /* Pods_RURIGHTGAMETests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E41A2B264DCBDE00389691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C46534D2911AAC90318D3CD /* Pods_RURIGHTGAME_RURIGHTGAMEUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E41A04264DCBDD00389691 = {
+			isa = PBXGroup;
+			children = (
+				55E41A0F264DCBDD00389691 /* RURIGHTGAME */,
+				55E41A26264DCBDE00389691 /* RURIGHTGAMETests */,
+				55E41A31264DCBDE00389691 /* RURIGHTGAMEUITests */,
+				55E41A0E264DCBDD00389691 /* Products */,
+				C06C872DECD88E1B7A7CED55 /* Pods */,
+				F9EBE25BDF1B1CD226640D4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55E41A0E264DCBDD00389691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E41A0D264DCBDD00389691 /* RURIGHTGAME.app */,
+				55E41A23264DCBDE00389691 /* RURIGHTGAMETests.xctest */,
+				55E41A2E264DCBDE00389691 /* RURIGHTGAMEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E41A0F264DCBDD00389691 /* RURIGHTGAME */ = {
+			isa = PBXGroup;
+			children = (
+				55E41A10264DCBDD00389691 /* AppDelegate.swift */,
+				55E41A12264DCBDD00389691 /* SceneDelegate.swift */,
+				55E41A14264DCBDD00389691 /* ContentView.swift */,
+				55E41A70264DCF8400389691 /* firstpage.swift */,
+				55E41A75264DD00200389691 /* highscoredata.swift */,
+				55E41A7A264DD03400389691 /* HOME.swift */,
+				55E41A7F264DD06F00389691 /* lastpage.swift */,
+				55E41A84264DD0AD00389691 /* modelgame.swift */,
+				55E41A89264DD0E100389691 /* modelviewgame.swift */,
+				55E41A8E264DD13400389691 /* yourname.swift */,
+				55E41A16264DCBDE00389691 /* Assets.xcassets */,
+				55E41A1B264DCBDE00389691 /* LaunchScreen.storyboard */,
+				55E41A43264DCCD900389691 /* GoogleService-Info.plist */,
+				55E41A1E264DCBDE00389691 /* Info.plist */,
+				55E41A18264DCBDE00389691 /* Preview Content */,
+			);
+			path = RURIGHTGAME;
+			sourceTree = "<group>";
+		};
+		55E41A18264DCBDE00389691 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55E41A19264DCBDE00389691 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55E41A26264DCBDE00389691 /* RURIGHTGAMETests */ = {
+			isa = PBXGroup;
+			children = (
+				55E41A27264DCBDE00389691 /* RURIGHTGAMETests.swift */,
+				55E41A29264DCBDE00389691 /* Info.plist */,
+			);
+			path = RURIGHTGAMETests;
+			sourceTree = "<group>";
+		};
+		55E41A31264DCBDE00389691 /* RURIGHTGAMEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55E41A32264DCBDE00389691 /* RURIGHTGAMEUITests.swift */,
+				55E41A34264DCBDE00389691 /* Info.plist */,
+			);
+			path = RURIGHTGAMEUITests;
+			sourceTree = "<group>";
+		};
+		C06C872DECD88E1B7A7CED55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D60588F9BCD414C46921DB8 /* Pods-RURIGHTGAME.debug.xcconfig */,
+				34CF5EEC536E9EF319CB7062 /* Pods-RURIGHTGAME.release.xcconfig */,
+				1217A323D4A07A85FAC486BC /* Pods-RURIGHTGAME-RURIGHTGAMEUITests.debug.xcconfig */,
+				7E803844677EBB6D7CBA8D04 /* Pods-RURIGHTGAME-RURIGHTGAMEUITests.release.xcconfig */,
+				4382F68ED4FB3B9EA37C18B0 /* Pods-RURIGHTGAMETests.debug.xcconfig */,
+				E955FE590C0BF2D09899DCAB /* Pods-RURIGHTGAMETests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9EBE25BDF1B1CD226640D4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A95B06687C3F003134778E0 /* Pods_RURIGHTGAME.framework */,
+				23DFBE4632567378CAEA9959 /* Pods_RURIGHTGAME_RURIGHTGAMEUITests.framework */,
+				B6EBA46581B700A2BCE94FFB /* Pods_RURIGHTGAMETests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E41A0C264DCBDD00389691 /* RURIGHTGAME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E41A37264DCBDE00389691 /* Build configuration list for PBXNativeTarget "RURIGHTGAME" */;
+			buildPhases = (
+				5F0A74F14F0C5532D1862B2E /* [CP] Check Pods Manifest.lock */,
+				55E41A09264DCBDD00389691 /* Sources */,
+				55E41A0A264DCBDD00389691 /* Frameworks */,
+				55E41A0B264DCBDD00389691 /* Resources */,
+				AAD74833500396511254E442 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RURIGHTGAME;
+			productName = RURIGHTGAME;
+			productReference = 55E41A0D264DCBDD00389691 /* RURIGHTGAME.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E41A22264DCBDE00389691 /* RURIGHTGAMETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E41A3A264DCBDE00389691 /* Build configuration list for PBXNativeTarget "RURIGHTGAMETests" */;
+			buildPhases = (
+				0A04D99488703C9038D0829A /* [CP] Check Pods Manifest.lock */,
+				55E41A1F264DCBDE00389691 /* Sources */,
+				55E41A20264DCBDE00389691 /* Frameworks */,
+				55E41A21264DCBDE00389691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E41A25264DCBDE00389691 /* PBXTargetDependency */,
+			);
+			name = RURIGHTGAMETests;
+			productName = RURIGHTGAMETests;
+			productReference = 55E41A23264DCBDE00389691 /* RURIGHTGAMETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55E41A2D264DCBDE00389691 /* RURIGHTGAMEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E41A3D264DCBDE00389691 /* Build configuration list for PBXNativeTarget "RURIGHTGAMEUITests" */;
+			buildPhases = (
+				97146D809AD99297E169F36A /* [CP] Check Pods Manifest.lock */,
+				55E41A2A264DCBDE00389691 /* Sources */,
+				55E41A2B264DCBDE00389691 /* Frameworks */,
+				55E41A2C264DCBDE00389691 /* Resources */,
+				6D21E5EC0B4F6F1D44F4DF1C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E41A30264DCBDE00389691 /* PBXTargetDependency */,
+			);
+			name = RURIGHTGAMEUITests;
+			productName = RURIGHTGAMEUITests;
+			productReference = 55E41A2E264DCBDE00389691 /* RURIGHTGAMEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E41A05264DCBDD00389691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					55E41A0C264DCBDD00389691 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					55E41A22264DCBDE00389691 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 55E41A0C264DCBDD00389691;
+					};
+					55E41A2D264DCBDE00389691 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 55E41A0C264DCBDD00389691;
+					};
+				};
+			};
+			buildConfigurationList = 55E41A08264DCBDD00389691 /* Build configuration list for PBXProject "RURIGHTGAME" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E41A04264DCBDD00389691;
+			productRefGroup = 55E41A0E264DCBDD00389691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E41A0C264DCBDD00389691 /* RURIGHTGAME */,
+				55E41A22264DCBDE00389691 /* RURIGHTGAMETests */,
+				55E41A2D264DCBDE00389691 /* RURIGHTGAMEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E41A0B264DCBDD00389691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E41A1D264DCBDE00389691 /* LaunchScreen.storyboard in Resources */,
+				55E41A44264DCCD900389691 /* GoogleService-Info.plist in Resources */,
+				55E41A1A264DCBDE00389691 /* Preview Assets.xcassets in Resources */,
+				55E41A17264DCBDE00389691 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E41A21264DCBDE00389691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E41A2C264DCBDE00389691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A04D99488703C9038D0829A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RURIGHTGAMETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0A74F14F0C5532D1862B2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RURIGHTGAME-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D21E5EC0B4F6F1D44F4DF1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RURIGHTGAME-RURIGHTGAMEUITests/Pods-RURIGHTGAME-RURIGHTGAMEUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RURIGHTGAME-RURIGHTGAMEUITests/Pods-RURIGHTGAME-RURIGHTGAMEUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RURIGHTGAME-RURIGHTGAMEUITests/Pods-RURIGHTGAME-RURIGHTGAMEUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97146D809AD99297E169F36A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RURIGHTGAME-RURIGHTGAMEUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD74833500396511254E442 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RURIGHTGAME/Pods-RURIGHTGAME-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RURIGHTGAME/Pods-RURIGHTGAME-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RURIGHTGAME/Pods-RURIGHTGAME-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E41A09264DCBDD00389691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E41A76264DD00200389691 /* highscoredata.swift in Sources */,
+				55E41A11264DCBDD00389691 /* AppDelegate.swift in Sources */,
+				55E41A13264DCBDD00389691 /* SceneDelegate.swift in Sources */,
+				55E41A8F264DD13400389691 /* yourname.swift in Sources */,
+				55E41A15264DCBDD00389691 /* ContentView.swift in Sources */,
+				55E41A7B264DD03400389691 /* HOME.swift in Sources */,
+				55E41A85264DD0AD00389691 /* modelgame.swift in Sources */,
+				55E41A8A264DD0E100389691 /* modelviewgame.swift in Sources */,
+				55E41A71264DCF8400389691 /* firstpage.swift in Sources */,
+				55E41A80264DD06F00389691 /* lastpage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E41A1F264DCBDE00389691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E41A28264DCBDE00389691 /* RURIGHTGAMETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E41A2A264DCBDE00389691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E41A33264DCBDE00389691 /* RURIGHTGAMEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E41A25264DCBDE00389691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E41A0C264DCBDD00389691 /* RURIGHTGAME */;
+			targetProxy = 55E41A24264DCBDE00389691 /* PBXContainerItemProxy */;
+		};
+		55E41A30264DCBDE00389691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E41A0C264DCBDD00389691 /* RURIGHTGAME */;
+			targetProxy = 55E41A2F264DCBDE00389691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55E41A1B264DCBDE00389691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E41A1C264DCBDE00389691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E41A35264DCBDE00389691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55E41A36264DCBDE00389691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E41A38264DCBDE00389691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D60588F9BCD414C46921DB8 /* Pods-RURIGHTGAME.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RURIGHTGAME/Preview Content\"";
+				DEVELOPMENT_TEAM = 8686KASUL7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RURIGHTGAME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tu.ac.th.rp.RURIGHTGAME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E41A39264DCBDE00389691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CF5EEC536E9EF319CB7062 /* Pods-RURIGHTGAME.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RURIGHTGAME/Preview Content\"";
+				DEVELOPMENT_TEAM = 8686KASUL7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RURIGHTGAME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tu.ac.th.rp.RURIGHTGAME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55E41A3B264DCBDE00389691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4382F68ED4FB3B9EA37C18B0 /* Pods-RURIGHTGAMETests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8686KASUL7;
+				INFOPLIST_FILE = RURIGHTGAMETests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tu.ac.th.rp.RURIGHTGAMETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RURIGHTGAME.app/RURIGHTGAME";
+			};
+			name = Debug;
+		};
+		55E41A3C264DCBDE00389691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E955FE590C0BF2D09899DCAB /* Pods-RURIGHTGAMETests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8686KASUL7;
+				INFOPLIST_FILE = RURIGHTGAMETests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tu.ac.th.rp.RURIGHTGAMETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RURIGHTGAME.app/RURIGHTGAME";
+			};
+			name = Release;
+		};
+		55E41A3E264DCBDE00389691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1217A323D4A07A85FAC486BC /* Pods-RURIGHTGAME-RURIGHTGAMEUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8686KASUL7;
+				INFOPLIST_FILE = RURIGHTGAMEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tu.ac.th.rp.RURIGHTGAMEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RURIGHTGAME;
+			};
+			name = Debug;
+		};
+		55E41A3F264DCBDE00389691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E803844677EBB6D7CBA8D04 /* Pods-RURIGHTGAME-RURIGHTGAMEUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8686KASUL7;
+				INFOPLIST_FILE = RURIGHTGAMEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tu.ac.th.rp.RURIGHTGAMEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RURIGHTGAME;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E41A08264DCBDD00389691 /* Build configuration list for PBXProject "RURIGHTGAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E41A35264DCBDE00389691 /* Debug */,
+				55E41A36264DCBDE00389691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E41A37264DCBDE00389691 /* Build configuration list for PBXNativeTarget "RURIGHTGAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E41A38264DCBDE00389691 /* Debug */,
+				55E41A39264DCBDE00389691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E41A3A264DCBDE00389691 /* Build configuration list for PBXNativeTarget "RURIGHTGAMETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E41A3B264DCBDE00389691 /* Debug */,
+				55E41A3C264DCBDE00389691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E41A3D264DCBDE00389691 /* Build configuration list for PBXNativeTarget "RURIGHTGAMEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E41A3E264DCBDE00389691 /* Debug */,
+				55E41A3F264DCBDE00389691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E41A05264DCBDD00389691 /* Project object */;
+}

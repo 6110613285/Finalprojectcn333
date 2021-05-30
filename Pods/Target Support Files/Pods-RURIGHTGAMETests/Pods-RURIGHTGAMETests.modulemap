@@ -1,0 +1,6 @@
+framework module Pods_RURIGHTGAMETests {
+  umbrella header "Pods-RURIGHTGAMETests-umbrella.h"
+
+  export *
+  module * { export * }
+}

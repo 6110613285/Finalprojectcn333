@@ -1,0 +1,6 @@
+framework module Pods_RURIGHTGAME {
+  umbrella header "Pods-RURIGHTGAME-umbrella.h"
+
+  export *
+  module * { export * }
+}
